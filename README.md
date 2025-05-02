@@ -6,6 +6,8 @@ While this started as an interest in unsupervised learning, I had read through t
 
 So, this project is a python attempt at replication the Chen, Sain, and Guo (2012), while including some python specific tools for clustering (i.e. i.e. Elbow Cruve method - Silhoutte Algorithm). While it could be that sorting differences (or the availability/ exclusion of the postal code column) leads to differences, so far the output has been pretty close. I sort the data into freqeuncy, recency, and monetary aggregated by customer, rather than postal code. Further, I attempt to extend the inlcusion of the RFMT (T for time) model. I also aim to explore some other dimensions of the data, in relation to clustering techniques, really just to learn and experiment with different features of the data.
 
+Finally, I'll run some comparison models, including market basket and cohort analysis, really as a way to robustly examine the reliability of output from the RFM model. I'm hoping to see if the output from these models complement or compete with the RFM approach. 
+
 
 
 
